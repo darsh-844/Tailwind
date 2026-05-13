@@ -1,83 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind Project</title>
+    <title>Tailwind Project - Consolidated</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./output.css" />
   </head>
-  <!-- <body class="bg-gray-100 h-screen flex items-center justify-center">
-    <h1 class="text-4xl font-bold text-blue-500">Hello, Tailwind CSS!</h1> 
-  <body class="bg-gray-100">
-    <div
-      class="max-w-md mx-auto mt-20 p-6 bg-white rounded-xl shadow-lg text-center"
-    >
-      <h1 class="text-4xl font-bold text-blue-500 mb-3 underline">
-        Hello, Tailwind CSS!
-      </h1>
-      <p class="text-gray-600 mb-4">Welcome to your Tailwind CSS project!</p>
-      <button
-        class="bg-blue-400 hover:bg-blue-700 transition duration-300 text-white font-bold py-2 px-4 rounded-lg"
-      >
-        Click Me
-      </button> 
-    </div> 
-  <body class="bg-gray-100 p-8">
-    <h1 class="text-2xl font-bold mb-6">Tailwind Flexbox</h1>
-    <div class="flex gap-4 p-4 bg-gray-200">
-      <div class="bg-blue-500 text-white p-4 rounded">Flex Item 1</div>
-      <div class="bg-green-500 text-white p-4 rounded">Flex Item 2</div>
-      <div class="bg-red-500 text-white p-4 rounded">Flex Item 3</div>
-    </div>
+  <body class="bg-gray-100 p-4 md:p-8 space-y-12">
 
+    <!-- 1. Intro Card Section -->
+    <section>
+      <div class="max-w-md mx-auto p-6 bg-white rounded-xl shadow-lg text-center">
+        <h1 class="text-4xl font-bold text-blue-500 mb-3 underline">
+          Hello, Tailwind CSS!
+        </h1>
+        <p class="text-gray-600 mb-4">Welcome to your Tailwind CSS project!</p>
+        <button class="bg-blue-400 hover:bg-blue-700 transition duration-300 text-white font-bold py-2 px-4 rounded-lg">
+          Click Me
+        </button> 
+      </div>
+    </section>
 
-  <body class="bg-gray-100 p-8">
-    <h1 class="text-4xl font-bold text-center mb-6">Tailwind Grid</h1>
-    <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4 bg-gray-200"
-    >
-      <div class="bg-blue-500 text-white p-4 text-center shadow-lg rounded">
-        Grid Item 1
-      </div>
-      <div class="bg-green-500 text-white p-4 text-center shadow-lg rounded">
-        Grid Item 2
-      </div>
-      <div class="bg-red-500 text-white p-4 text-center shadow-lg rounded">
-        Grid Item 3
-      </div>
-      <div class="bg-yellow-500 text-white p-4 text-center shadow-lg rounded">
-        Grid Item 4
-      </div>
-      <div class="bg-purple-500 text-white p-4 text-center shadow-lg rounded">
-        Grid Item 5
-      </div>
-      <div class="bg-pink-500 text-white p-4 text-center shadow-lg rounded">
-        Grid Item 6
-      </div>
-    </div>
+    <hr class="border-gray-300" />
 
-  <body class="bg-gray-100 p-8">
-    <h1 class="text-4xl font-bold text-center mb-6">
-      Typography in Tailwind CSS
-    </h1>
-    <p class="text-base leading-relaxed text-gray-700 mb-4">
-      This is a simple paragraph to demonstrate the typography options available
-      in Tailwind CSS.
-    </p>
-    <h2 class="text-2xl font-semibold mb-4">Heading 2</h2>
-    <p class="text-base text-gray-600">
-      This is another paragraph to show different typography styles.
-    </p>-->
-<body class="bg-gray-100">
-    <div
-      class="bg-blue-500 text-white p-4 sm:p-6 md:10 lg:p-14 rounded-lg"
-    >
-    <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-2">
-      Responsive Box
-    </h2>
-    <p class="text-sm sm:text-base md:text-lg lg:text-xl mt-2">
-      This box adjusts its padding and text size based on the screen size.</p>
-    </div>
+    <!-- 2. Typography Section -->
+    <section class="max-w-4xl mx-auto">
+      <h1 class="text-4xl font-bold text-center mb-6">Typography in Tailwind CSS</h1>
+      <p class="text-base leading-relaxed text-gray-700 mb-4">
+        This is a simple paragraph to demonstrate the typography options available in Tailwind CSS.
+      </p>
+      <h2 class="text-2xl font-semibold mb-4 text-blue-600">Heading 2 (Sub-topic)</h2>
+      <p class="text-base text-gray-600">
+        This is another paragraph to show different typography styles, like color shades and font weights.
+      </p>
+    </section>
+
+    <!-- 3. Flexbox Section -->
+    <section class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6">Tailwind Flexbox</h2>
+      <div class="flex flex-wrap gap-4 p-4 bg-gray-200 rounded-lg">
+        <div class="bg-blue-500 text-white p-4 rounded flex-1 text-center">Flex Item 1</div>
+        <div class="bg-green-500 text-white p-4 rounded flex-1 text-center">Flex Item 2</div>
+        <div class="bg-red-500 text-white p-4 rounded flex-1 text-center">Flex Item 3</div>
+      </div>
+    </section>
+
+    <!-- 4. Grid Section -->
+    <section class="max-w-4xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-6">Tailwind Grid</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4 bg-gray-200 rounded-lg">
+        <div class="bg-blue-500 text-white p-4 text-center shadow-lg rounded">Grid Item 1</div>
+        <div class="bg-green-500 text-white p-4 text-center shadow-lg rounded">Grid Item 2</div>
+        <div class="bg-red-500 text-white p-4 text-center shadow-lg rounded">Grid Item 3</div>
+        <div class="bg-yellow-500 text-white p-4 text-center shadow-lg rounded">Grid Item 4</div>
+        <div class="bg-purple-500 text-white p-4 text-center shadow-lg rounded">Grid Item 5</div>
+        <div class="bg-pink-500 text-white p-4 text-center shadow-lg rounded">Grid Item 6</div>
+      </div>
+    </section>
+
+    <!-- 5. Responsive Design Section -->
+    <section class="max-w-4xl mx-auto pb-10">
+      <div class="bg-blue-500 text-white p-4 sm:p-6 md:p-10 lg:p-14 rounded-lg shadow-2xl">
+        <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-2">
+          Responsive Box
+        </h2>
+        <p class="text-sm sm:text-base md:text-lg lg:text-xl mt-2">
+          This box adjusts its padding and text size based on the screen size. Resize your browser to see the effect!
+        </p>
+      </div>
+    </section>
+
   </body>
 </html>
